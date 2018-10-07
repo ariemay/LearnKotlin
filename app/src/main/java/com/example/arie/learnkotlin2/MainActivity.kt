@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val userName = intent.getStringExtra("USER_NAME")
+        val userName = intent.getStringExtra("USER_EMAIL")
         val userPassword = intent.getStringExtra("USER_PASSWORD")
 
         username.setText(userName)
